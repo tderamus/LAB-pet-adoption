@@ -1,0 +1,11 @@
+
+#card-wrapper{
+  display: flex;
+}
+
+
+div.card{
+  flex-wrap: wrap;
+  flex-basis: 33.333%;
+  justify-content: space-evenly;
+}
