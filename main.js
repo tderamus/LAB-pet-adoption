@@ -9,8 +9,8 @@ const pets = [
       
     },
     {
-        id: 2,
-        imageUrl: "http://www.jozilife.co.za/wp-content/uploads/The-Dino-Expo.jpg",
+      id: 2,
+      imageUrl: "https://images.app.goo.gl/JYWHPq2E9Gf4mFv77",
       name: "Trouble",
       color: "Brown",
       specialSkill: "Just picks the tomatoes off of a sandwich instead of requesting a whole new sandwich.",
@@ -285,15 +285,17 @@ const pets = [
     }
   ];
 
-  const targetingPets = document.querySelector('#pets');
+  const targetingPets = document.querySelector('.card');
   let domString = "";
   for (const pet of pets) {
     domString += `<div class="card" style = "width: 18rem;">
+          <h5 class="card-title">${pet.name}</h5>
           <img src=${pet.imageUrl} class="card-img-top" alt=${pet.name}>
           <div class="card-body">
-          <h5 class="card-title">${pet.name}</h5>
+          <p class-"card-color">${pet.color}</p>
           <p class="card-text">${pet.specialSkill}</p>
         </div>
+        <footer class="card-type">${pet.type}</footer>
       </div>`;
   }
 
