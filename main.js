@@ -294,8 +294,8 @@ const pets = [
           <div class="card-body">
           <p class-"card-color">${pet.color}</p>
           <p class="card-text">${pet.specialSkill}</p>
+          <footer class="card-type">${pet.type}</footer>
         </div>
-        <footer class="card-type">${pet.type}</footer>
       </div>`;
   }
 
