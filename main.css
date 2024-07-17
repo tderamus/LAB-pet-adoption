@@ -1,41 +1,28 @@
 
-
-/* body{
+.pet-types {
   display: flex;
-} */
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
 
 .card{
-  display: flex;
-  flex-basis: 25%;
+  display: flex; 
   flex-wrap: wrap;
-  
-  width: 18rem;
-  height: 65rem;
-  margin: 10px;
-}
-
-.card-box {
-  flex-basis: 33.333%;
+  flex-direction: row;
+  align-content: space-evenly;
+  margin-left: 10px;
+  margin-top: 10px;
   justify-content: center;
-  align-content: center;
-}
 
-.card > img {
-  border: solid 1px rgb(0, 0, 0);
-  margin-bottom: 0%;
-  padding-bottom: 0%;
-}
+  .card-body{
+    text-align: center;
+  }
 
-.card-title {
+  .card-title, .card-type {
   background-color: lightgray;
   text-align: center;
   border: solid 1px blue;
   padding: 10px;
+  width: 100%;
 }
-
-img.card-img-top {
-  height: 250px;
-  width: 250px;
- margin-left: auto;
- margin-right: auto;
 }
