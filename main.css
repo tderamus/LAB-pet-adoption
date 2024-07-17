@@ -1,15 +1,23 @@
 
 
+/* body{
+  display: flex;
+} */
 
 .card{
   display: flex;
+  flex-basis: 25%;
   flex-wrap: wrap;
-  flex-basis: 33.333%;
-  /* justify-content: center; */
-  /* align-content: center; */
-  width: 25rem;
+  
+  width: 18rem;
   height: 65rem;
   margin: 10px;
+}
+
+.card-box {
+  flex-basis: 33.333%;
+  justify-content: center;
+  align-content: center;
 }
 
 .card > img {
