@@ -1,19 +1,41 @@
 
-#card-wrapper{
+
+/* body{
   display: flex;
+} */
+
+.card{
+  display: flex;
+  flex-basis: 25%;
+  flex-wrap: wrap;
+  
+  width: 18rem;
+  height: 65rem;
+  margin: 10px;
 }
 
-
-div.card{
-  flex-wrap: wrap;
+.card-box {
   flex-basis: 33.333%;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-content: center;
 }
 
 .card > img {
   border: solid 1px rgb(0, 0, 0);
+  margin-bottom: 0%;
+  padding-bottom: 0%;
 }
 
-.card-type {
-  padding: 0%;
+.card-title {
+  background-color: lightgray;
+  text-align: center;
+  border: solid 1px blue;
+  padding: 10px;
+}
+
+img.card-img-top {
+  height: 250px;
+  width: 250px;
+ margin-left: auto;
+ margin-right: auto;
 }

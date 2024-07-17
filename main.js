@@ -288,14 +288,14 @@ const pets = [
   const targetingPets = document.querySelector('.card');
   let domString = "";
   for (const pet of pets) {
-    domString += `<div class="card" style = "width: 18rem;">
+    domString += `<div class="card-box">
           <h5 class="card-title">${pet.name}</h5>
           <img src=${pet.imageUrl} class="card-img-top" alt=${pet.name}>
           <div class="card-body">
           <p class-"card-color">${pet.color}</p>
           <p class="card-text">${pet.specialSkill}</p>
+          <footer class="card-type">${pet.type}</footer>
         </div>
-        <footer class="card-type">${pet.type}</footer>
       </div>`;
   }
 
