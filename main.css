@@ -1,5 +1,9 @@
 
-
+.pet-types {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
 
 .card{
   display: flex; 
@@ -10,24 +14,15 @@
   margin-top: 10px;
   justify-content: center;
 
-}
+  .card-body{
+    text-align: center;
+  }
 
-.card-title {
+  .card-title, .card-type {
   background-color: lightgray;
   text-align: center;
   border: solid 1px blue;
   padding: 10px;
+  width: 100%;
 }
-
-img.card-img-top {
-  /* height: 10rem;
-  width: 10rem; */
- /* margin-left: auto;
- margin-right: auto; */
-}
-
-.pet-types {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 10px;
 }
