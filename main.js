@@ -120,7 +120,7 @@ const pets = [
 
     {
       id: 13,
-       imageUrl: "http://1kjkdg1axrkd2g03cnboj761.wpengine.netdna-cdn.com/wp-content/uploads/2017/12/braydon-anderson-105552-e1512684107659.jpg",
+       imageUrl: "https://media.istockphoto.com/id/175453491/photo/dalmatian.webp?b=1&s=170667a&w=0&k=20&c=i_JPI3No-RITvbg6GOjk_lUJiFqlP0kPBWOi9hly5gE=",
       name: "Chester",
       color: "Red",
       specialSkill: "Expertly quotes and recognizes dialogue from early seasons of The Simpsons.",
@@ -285,18 +285,96 @@ const pets = [
     }
   ];
 
-  const targetingPets = document.querySelector('.card');
-  let domString = "";
-  for (const pet of pets) {
-    domString += `<div class="card" style="width: 18rem;">
-          <h5 class="card-title">${pet.name}</h5>
-          <img src=${pet.imageUrl} class="card-img-top" alt=${pet.name}>
-          <div class="card-body">
-          <p class-"card-color">${pet.color}</p>
-          <p class="card-text">${pet.specialSkill}</p>
-          <footer class="card-type">${pet.type}</footer>
-        </div>
-      </div>`;
-  }
 
-  targetingPets.innerHTML = domString;
+  // ************************* //
+  // ****** FUNCTIONS ******** //
+  // ************************* //
+
+  // Targeting query selector from DOM //
+  // const targetingPets = document.querySelector('.card');
+  // let domString = "";
+  // for (const pet of pets) {
+  //   domString += `<div class="card" style="width: 18rem;">
+  //         <h5 class="card-title">${pet.name}</h5>
+  //         <img src=${pet.imageUrl} class="card-img-top" alt=${pet.name}>
+  //         <div class="card-body">
+  //         <p class-"card-color">${pet.color}</p>
+  //         <p class="card-text">${pet.specialSkill}</p>
+  //         <footer class="card-type">${pet.type}</footer>
+  //       </div>
+  //     </div>`;
+  // }
+
+  // targetingPets.innerHTML = domString;
+
+// Render to DOM utilit function //
+const renderToDom = (divId, htmlToRender) => {
+  const selectedDiv = document.querySelector(divId);
+  selectedDiv.innerHTML = htmlToRender;
+}
+
+
+// Get cards on DOM function //
+const cardsOnDom = (array) => {
+  let domString = "";
+  for (const pet of array) {
+        domString += `<div class="card" style="width: 18rem;">
+        <h5 class="card-title">${pet.name}</h5>
+        <img src=${pet.imageUrl} class="card-img-top" alt=${pet.name}>
+        <div class="card-body">
+        <p class-"card-color">${pet.color}</p>
+        <p class="card-text">${pet.specialSkill}</p>
+        <footer class="card-type">${pet.type}</footer>
+      </div>
+    </div>`;
+  }
+  renderToDom(".card", domString);
+
+};
+
+
+
+
+// Filter cards with specific colors //
+const filter = (array, petTypeString) => {
+  const petTypeArray = [];
+  array.forEach((option) => {
+    if(option.type === petTypeString){
+    petTypeArray.push(option);
+    }
+  });
+  return petTypeArray;
+}
+
+const showAllPets = document.querySelector(".all-pets");
+const showAllDogs = document.querySelector(".dogs");
+const showAllCats = document.querySelector(".cats");
+const showAllDinos = document.querySelector(".dino");
+
+// show all pets on the DOM //
+showAllPets.addEventListener("click", () => {
+  cardsOnDom(pets);
+});
+
+//Show all Dogs on DOM //
+showAllDogs.addEventListener("click", () => {
+  const allDogPets = filter(pets, "dog");
+  cardsOnDom(allDogPets);
+});
+
+//Show all Cats on DOM //
+showAllCats.addEventListener("click", () => {
+  const allCatPets = filter(pets, "cat");
+  cardsOnDom(allCatPets);
+});
+
+//Show all Dinosaurs on DOM //
+showAllDinos.addEventListener("click", () => {
+  const allDinoPets = filter(pets, "dino");
+  cardsOnDom(allDinoPets);
+});
+
+
+
+// push all cards to DOM //
+cardsOnDom(pets)
