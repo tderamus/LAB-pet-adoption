@@ -325,8 +325,9 @@ const cardsOnDom = (array) => {
         <p class-"card-color">${pet.color}</p>
         <p class="card-text">${pet.specialSkill}</p>
         <footer class="card-type">${pet.type}</footer>
-      </div>
-    </div>`;
+        <button class="btn btn-danger" id="delete--${pet.id}">Delete</button>
+        </div>
+      </div>`;
   }
   renderToDom(".card", domString);
 
@@ -373,6 +374,8 @@ showAllDinos.addEventListener("click", () => {
   const allDinoPets = filter(pets, "dino");
   cardsOnDom(allDinoPets);
 });
+
+//create new pet card
 
 
 
