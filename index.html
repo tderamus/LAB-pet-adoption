@@ -8,6 +8,36 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
+  <form action="">
+    <div class="mb-3">
+      <label for="basic-url" class="form-label">Your Pet's Image URL</label>
+      <div class="input-group">
+        <span class="input-group-text" id="basic-addon3">https://example.com/users/:</span>
+        <input type="text" class="form-control" id="img-url" aria-describedby="basic-addon3 basic-addon4">
+      </div>
+    </div>
+    
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="pet-name">Pet Name:</span>
+      <input type="text" class="form-control" placeholder="" aria-label="petName" aria-describedby="basic-addon2">
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="pet-color">Color:</span>
+      <input type="text" class="form-control" placeholder="" aria-label="petColor" aria-describedby="basic-addon2">
+    </div>
+
+    <div class="input-group">
+      <span class="input-group-text" id="pet-skills">Special Skills:</span>
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+    </div>
+      
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="pet-color">Type:</span>
+      <input type="text" class="form-control" placeholder="" aria-label="petColor" aria-describedby="basic-addon2">
+    </div>
+</form>
+
   <div class="pet-types">
     <button type="button" class="btn btn-primary all-pets">ALL PETS</button>
     <button type="button" class="btn btn-secondary dogs">DOGS</button>
