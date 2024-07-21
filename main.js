@@ -408,10 +408,10 @@ const createPet = (e) => {
 //*********************************************//
 
 //target the card div in the html file//
-card = document.querySelector(".class")
+const card = document.querySelector(".card")
 card.addEventListener('click', (e) => {
   if (e.target.id.includes("delete")) {
-    const [, id] = e.target.id.split("==");
+    const [, id] = e.target.id.split("--");
     const index = pets.findIndex(e => e.id === Number(id));
     pets.splice(index, 1);
     cardsOnDom(pets);
@@ -424,4 +424,4 @@ const startCards = () => {
 
 startCards();
 // push all cards to DOM //
-cardsOnDom(pets)
+// cardsOnDom(pets)
