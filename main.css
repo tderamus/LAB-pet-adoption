@@ -1,7 +1,4 @@
 
-body {
-  background-color: salmon;
-}
 
 .pet-types {
   display: flex;
@@ -34,7 +31,7 @@ form {
     text-align: center;
   }
 
-  .card-title, .card-type {
+  h5.card-title, .card-type {
   background-color: lightgray;
   text-align: center;
   border: solid 1px blue;
