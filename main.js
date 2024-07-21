@@ -10,7 +10,7 @@ const pets = [
     },
     {
       id: 2,
-      imageUrl: "https://images.app.goo.gl/JYWHPq2E9Gf4mFv77",
+      imageUrl: "https://assets.creationmuseum.org/img/pages/1703-DinoDen-TwoCard.jpg",
       name: "Trouble",
       color: "Brown",
       specialSkill: "Just picks the tomatoes off of a sandwich instead of requesting a whole new sandwich.",
@@ -40,7 +40,7 @@ const pets = [
 
     {
       id: 5,
-      imageUrl: "http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg",
+      imageUrl: "https://tailandfur.com/wp-content/uploads/2016/03/40-Scary-and-Funny-Cat-Pictures-8.jpg",
       name: "Spooky",
       color: "Brown",
       specialSkill: "Comfortable in the outdoors for up to eight hours.",
@@ -70,7 +70,7 @@ const pets = [
 
     {
       id: 8,
-      imageUrl: "http://www.theouthousers.com/images/jck//ThanosCopter/news/grumpasaur.jpg",
+      imageUrl: "https://assets.creationmuseum.org/img/pages/1703-DinoDen-TwoCard.jpg",
       name: "Ginger",
       color: "Grey",
       specialSkill: "Comfortable in the outdoors for up to eight hours.",
@@ -100,7 +100,7 @@ const pets = [
 
     {
       id: 11,
-      imageUrl: "http://www.cantref.com/userfiles/events/walking%20dino.jpg?w=600",
+      imageUrl: "https://assets.creationmuseum.org/img/pages/1703-DinoDen-TwoCard.jpg",
       name: "Coco",
       color: "Orange",
       specialSkill: "Can be around food without staring creepily at it.",
@@ -150,7 +150,7 @@ const pets = [
 
     {
       id: 16,
-      imageUrl: "https://images.readwrite.com/wp-content/uploads/2018/03/t-rex-dino-quiz-e1490854556549.jpg",
+      imageUrl: "https://assets.creationmuseum.org/img/pages/1703-DinoDen-TwoCard.jpg",
       name: "Smokey",
       color: "Brown",
       specialSkill: "Drives at a safe rate of speed in snow or rain.",
@@ -159,7 +159,7 @@ const pets = [
     },
     {
      id: 17,
-     imageUrl: "http://www.funnycatsite.com/pictures/Close_Up_Yawn.jpg",
+     imageUrl: "http://3.bp.blogspot.com/-RzIFLsIO-XQ/UFoMLOT66JI/AAAAAAAAVps/JRF98hdA9S8/s640/funny-cat-pictures-016-027.jpg",
       name: "Muffin",
       color: "Yellow",
       specialSkill: "Does not freak out if you haven’t seen his favorite movie (The Big Lebowski).",
@@ -168,7 +168,7 @@ const pets = [
     },
     {
       id: 18,
-      imageUrl: "https://www.nation.co.ke/image/view/-/4078922/highRes/1742693/-/maxw/600/-/1453yvh/-/DINO.jpg",
+      imageUrl: "https://mydinosaurs.com/wp-content/uploads/2017/02/2-3-600x400.jpg",
       name: "Salem",
       color: "Brown",
       specialSkill: "Proficient in air guitar",
@@ -177,7 +177,7 @@ const pets = [
     },
     {
       id: 19,
-      imageUrl: "http://dailynewsdig.com/wp-content/uploads/2014/03/Creative-And-Funny-Dog-Stock-Photography-Pictures-2.jpg",
+      imageUrl: "https://www.thetrendywhippet.co.uk/wp-content/uploads/2016/11/IMG_1651-600x400.jpg",
       name: "Callie",
       color: "Blue",
       specialSkill: "Listens attentively to boring stories.",
@@ -186,7 +186,7 @@ const pets = [
     },
     {
       id: 20,
-      imageUrl: "http://www.funnycatsite.com/pictures/Lazy_White_Cat.jpg",
+      imageUrl: "http://3.bp.blogspot.com/-RzIFLsIO-XQ/UFoMLOT66JI/AAAAAAAAVps/JRF98hdA9S8/s640/funny-cat-pictures-016-027.jpg",
       name: "Spooky",
       color: "Black",
       specialSkill: "Uses litter box at appropriate hours.",
@@ -195,7 +195,7 @@ const pets = [
     },
     {
       id: 21,
-      imageUrl: "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/2/12/enhanced/webdr15/anigif_enhanced-29802-1446485228-10.gif?crop=250:165;0,0&downsize=715",
+      imageUrl: "https://mydinosaurs.com/wp-content/uploads/2017/02/2-3-600x400.jpg",
       name: "Miss kitty",
       color: "Red",
       specialSkill: "Owns a Nintendo Power Glove.",
@@ -204,7 +204,7 @@ const pets = [
     },
     {
         id: 22,
-        imageUrl: "http://funnyanimalphoto.com/wp-content/uploads/2013/08/cat_caught_mouse_thegatewaypundit.jpg",
+        imageUrl: "https://tailandfur.com/wp-content/uploads/2015/09/40-Amazing-Cat-Funny-Moment-Pictures-Feature-Image.jpg",
       name: "Snuggles",
       color: "Orange",
       specialSkill: "Is comfortable with jokes about his receding hairline.",
@@ -222,7 +222,7 @@ const pets = [
     },
     {
         id: 24,
-        imageUrl: "http://www.dogbreedplus.com/dog_breeds/images/basset-hound-4.jpg",
+        imageUrl: "https://www.thetrendywhippet.co.uk/wp-content/uploads/2016/11/IMG_1651-600x400.jpg",
       name: "George",
       color: "Brown",
       specialSkill: "Participates in karaoke but does not force others to go out to karaoke.",
@@ -231,7 +231,7 @@ const pets = [
     },
     {
       id: 25,
-      imageUrl: "http://funbk.s3.amazonaws.com/wp-content/uploads/2016/06/funny-cat-video-which-will-make-you-laugh-louder.jpg",
+      imageUrl: "https://mydinosaurs.com/wp-content/uploads/2017/02/2-3-600x400.jpg",
       name: "Salem",
       color: "Red",
       specialSkill: "Knows the words to 4 rap songs.",
@@ -276,7 +276,7 @@ const pets = [
     },
     {
       id: 30,
-      imageUrl: "http://lsae2.iypcdn.com/static//modules/uploads/photos/language1/dino-live-22.jpg?119",
+      imageUrl: "https://mydinosaurs.com/wp-content/uploads/2017/02/2-3-600x400.jpg",
       name: "Lucy",
       color: "Red",
       specialSkill: "Doesn’t get weirded out by the word “moist.”",
@@ -375,7 +375,38 @@ showAllDinos.addEventListener("click", () => {
   cardsOnDom(allDinoPets);
 });
 
-//create new pet card
+
+//*********************************************//
+//*******Create New Card On DOM Function*******/
+//*********************************************//
+
+//target the form on the DOM//
+const petform = document.querySelector("form");
+
+//create the function that grabs all the values from the form and pushes the new opject to the array
+const createPet = (e) => {
+  e.preventDefault(); //prevents default action of form button if no function applies / add for each form your create
+  const newPetObj = {
+    id: pets.length + 1,
+    name: document.querySelector("#pet-name").value,
+    imageUrl: document.querySelector("#img-url").value,
+    color: document.querySelector("#pet-color").value,
+    specialSkill: document.querySelector("#pet-skill").value,
+    type: document.querySelector("#pet-type").value
+  }
+  pets.push(newPetObj);
+  cardsOnDom(pets);
+  petform.reset();
+ 
+}
+
+ //add event listener for form submit button//
+ petform.addEventListener("submit", createPet);
+
+//*********************************************//
+//********* Deleted Card From DOM **************/
+//*********************************************//
+
 
 
 
