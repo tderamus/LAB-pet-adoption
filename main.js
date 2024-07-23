@@ -336,7 +336,7 @@ const cardsOnDom = (array) => {
 
 
 
-// Filter cards with specific colors //
+// Filter cards with specific pet types //
 const filter = (array, petTypeString) => {
   const petTypeArray = [];
   array.forEach((option) => {
