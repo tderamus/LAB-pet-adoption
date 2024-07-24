@@ -22,7 +22,7 @@ form {
   display: flex; 
   flex-wrap: wrap;
   flex-direction: row;
-  align-content: space-evenly;
+  align-content: flex-start;
   margin-left: 10px;
   margin-top: 10px;
   justify-content: center;
@@ -31,16 +31,28 @@ form {
     text-align: center;
   }
 
-  h5.card-title, .card-type {
+  h5.card-title{
   background-color: lightgray;
   text-align: center;
   border: solid 1px blue;
   padding: 10px;
   width: 100%;
+  margin-bottom: 5px;
+ }
+
+  .card-type {
+  background-color: lightgray;
+  text-align: center;
+  border: solid 1px blue;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 5px;
 
  }
+ 
  img.card-img-top{
   width: 10em;
   height: 10em;
 }
+
 }
