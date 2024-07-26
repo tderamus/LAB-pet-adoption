@@ -298,7 +298,7 @@ const pets = [
   //         <h5 class="card-title">${pet.name}</h5>
   //         <img src=${pet.imageUrl} class="card-img-top" alt=${pet.name}>
   //         <div class="card-body">
-  //         <p class-"card-color">${pet.color}</p>
+  //         <p class="card-color">${pet.color}</p>
   //         <p class="card-text">${pet.specialSkill}</p>
   //         <footer class="card-type">${pet.type}</footer>
   //       </div>
@@ -322,11 +322,12 @@ const cardsOnDom = (array) => {
         <h5 class="card-title">${pet.name}</h5>
         <img src=${pet.imageUrl} class="card-img-top" alt=${pet.name}>
         <div class="card-body">
-        <p class-"card-color">${pet.color}</p>
+        <p class="card-color">${pet.color}</p>
         <p class="card-text">${pet.specialSkill}</p>
+        <div class="petcard-footer">
         <footer class="card-type">${pet.type}</footer>
         <button class="btn btn-danger" id="delete--${pet.id}">Delete</button>
-        </div>
+        </div></div>
       </div>`;
   }
   renderToDom(".card", domString);
